@@ -1,0 +1,118 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-d3-components",
+        "scope": null,
+        "escapedName": "react-d3-components",
+        "name": "react-d3-components",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\Develope\\laragon\\www\\bi\\script"
+    ]
+  ],
+  "_cnpm_publish_time": 1472816178282,
+  "_from": "react-d3-components@latest",
+  "_id": "react-d3-components@0.6.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-d3-components",
+  "_nodeVersion": "6.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-d3-components-0.6.5.tgz_1472816178009_0.9186252562794834"
+  },
+  "_npmUser": {
+    "name": "codesuki",
+    "email": "marschik_neri@cyberagent.co.jp"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-d3-components",
+    "scope": null,
+    "escapedName": "react-d3-components",
+    "name": "react-d3-components",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-d3-components/download/react-d3-components-0.6.5.tgz",
+  "_shasum": "87b9bea1d1db542cee63691944edce298409ea03",
+  "_shrinkwrap": null,
+  "_spec": "react-d3-components",
+  "_where": "D:\\Develope\\laragon\\www\\bi\\script",
+  "author": {
+    "name": "Neri Marschik",
+    "email": "marschik_neri@cyberagent.co.jp",
+    "url": "http://www.cyberagent.co.jp"
+  },
+  "bugs": {
+    "url": "https://github.com/codesuki/react-d3-components/issues"
+  },
+  "dependencies": {
+    "d3": "^3.5.3"
+  },
+  "description": "D3 components for React",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.3.1",
+    "eslint-plugin-react": "^6.1.1",
+    "webpack": "^1.13.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "87b9bea1d1db542cee63691944edce298409ea03",
+    "size": 99954,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/react-d3-components/download/react-d3-components-0.6.5.tgz"
+  },
+  "gitHead": "7e1a61e3e84c26c998c8f02a21a7a037df57ed1a",
+  "homepage": "https://github.com/codesuki/react-d3-components",
+  "keywords": [
+    "d3",
+    "react",
+    "graph",
+    "visualization",
+    "chart",
+    "react-component"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "codesuki",
+      "email": "marschik_neri@cyberagent.co.jp"
+    }
+  ],
+  "name": "react-d3-components",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0"
+  },
+  "publish_time": 1472816178282,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesuki/react-d3-components.git"
+  },
+  "scripts": {
+    "build:js": "webpack && webpack --config webpack.config.min.js",
+    "lint": "eslint src/**; exit 0",
+    "postpublish": "rm -r ./lib",
+    "prepublish": "babel -c -d ./lib ./src/"
+  },
+  "version": "0.6.5"
+}

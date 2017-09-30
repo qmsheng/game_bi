@@ -1,0 +1,113 @@
+@top-menu-height:60px;
+@left-menu-height:72px;
+@sum-menu-width:180px;
+
+body, html {  width: 100%;  height: 100%;  position: relative;}
+body {  display: block;  font-size: 12px;  background-color: #e6e6e6;  overflow: auto;}
+body, textarea, input, button, select, keygen, legend {  font-family: arial,'微软雅黑','microsoft yahei','华文细黑','STXihei';  color: #333;  outline: 0;}
+input, .input {  border-radius: 0px;}
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {  margin: 0;  padding: 0;}
+.ui.input input {  border-radius: 0px;}
+.ui.menu.fixed, .ui.menu.fixed .item:first-child, .ui.menu.fixed .item:last-child, .ui.menu, .ui.menu .item:first-child, .ui.menu .item:last-child {  border-radius: 0!important;}
+.ui.menu, .ui.vertical.menu {  box-shadow: 0px 0px 1px 0 rgba(34, 36, 38, 0.15);}
+.ui.menu.fixed {  border: none;}
+.ui.menu, .ui.vertical.menu {  box-shadow: 0px 0px 0px 0 rgba(34, 36, 38, 0.15);}
+.ui.menu .item:before {  width:0px;}
+.ui.button {  border-radius:0px;  font-size: 12px;  font-weight: normal;}
+.ui.secondary.menu {  border:0px;  width:100%;  border-right: 1px solid #CCC;  height:100%;}
+.ui.secondary.vertical.menu > .item {  border-radius:0rem !important;}
+.ui.secondary.menu .header.item {  padding: 30px 25px 10px;  font-size:18px;}
+.ui.secondary.menu .header.item p {  font-size: 10px;  font-weight: normal;  color: rgba(0,0,0,.75);  padding:5px 0px 0px 0px}
+.ui.selection.dropdown {  border-radius: 0px;  font-size:12px;}
+.ui.dropdown .menu {  border-radius: 0px;  font-size:12px;}
+.ui.table {  border-radius: 0px;  font-size:12px;}
+.ui.modal {  border-radius: 0px;}
+
+.ui.form input[type="text"],.ui.form input[type="password"] {
+  border-radius: 0px;
+  font-size: 12px;
+}
+.ui.secondary.menu a.item {
+  padding: 10px 25px;
+  font-size:12px;
+  border-radius: 0px;
+  border: 0px;
+  color: rgba(0,0,0,.75);
+}
+.ui.secondary.menu a.item i.icon {
+  float:none;
+  margin-right: 5px;
+}
+.ui.vertical.menu .item {
+  position: inherit;
+}
+
+
+#app {
+  background-color: #F7F6F2;
+}
+.z-full-container {
+  width:100%;
+  height:100%;
+}
+
+.z-top {
+  height:@top-menu-height;
+}
+
+.z-main {
+  width:100%;
+  height:100%;
+  padding-top:@top-menu-height;
+}
+.z-left {
+  height:100%;
+  float:left;
+}
+.z-left .ui.menu {
+  height:100%;
+}
+
+.z-main-right {
+  height: 100%;
+  padding-left:@left-menu-height;
+  border-top: 1px solid #CCC;
+}
+.z-left-sub-hidden {
+  display: none;
+}
+.z-left-sub {
+  width:@sum-menu-width;
+  float:left;
+  height:100%;
+}
+
+.z-content-with-submenu-container {
+  padding-left:@sum-menu-width;
+  height:100%;
+}
+.z-content-no-submenu-container {
+  padding-left:0px;
+  height:100%;
+}
+
+.z-content {
+  padding:20px;
+  overflow-y: scroll;
+  height:100%;
+}
+
+.z-login {
+  height:100%;
+  width:100%;
+  background-color: #FFF;
+}
+.z-login-form {
+  width:450px;
+  height:470px;
+  padding:20px;
+  position  : absolute;
+  top       : 50%;
+  left      : 50%;
+  transform : translate(-50%,-50%);
+}

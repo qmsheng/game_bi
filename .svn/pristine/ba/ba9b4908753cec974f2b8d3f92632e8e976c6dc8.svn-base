@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "rctui@^0.6.8",
+        "scope": null,
+        "escapedName": "rctui",
+        "name": "rctui",
+        "rawSpec": "^0.6.8",
+        "spec": ">=0.6.8 <0.7.0",
+        "type": "range"
+      },
+      "D:\\Develope\\laragon\\www\\bi\\script"
+    ]
+  ],
+  "_cnpm_publish_time": 1470916605009,
+  "_from": "rctui@>=0.6.8 <0.7.0",
+  "_id": "rctui@0.6.8",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/rctui",
+  "_nodeVersion": "4.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/rctui-0.6.8.tgz_1470916603099_0.9506072180811316"
+  },
+  "_npmUser": {
+    "name": "lobos",
+    "email": "lobos841@gmail.com"
+  },
+  "_npmVersion": "3.8.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "rctui@^0.6.8",
+    "scope": null,
+    "escapedName": "rctui",
+    "name": "rctui",
+    "rawSpec": "^0.6.8",
+    "spec": ">=0.6.8 <0.7.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/rctui/download/rctui-0.6.8.tgz",
+  "_shasum": "d5846482a8a780fca318cc81bf61f056caf93bee",
+  "_shrinkwrap": null,
+  "_spec": "rctui@^0.6.8",
+  "_where": "D:\\Develope\\laragon\\www\\bi\\script",
+  "author": {
+    "name": "lobos841@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lobos/react-ui/issues"
+  },
+  "dependencies": {},
+  "description": "a collection of components for React",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "d5846482a8a780fca318cc81bf61f056caf93bee",
+    "size": 80151,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/rctui/download/rctui-0.6.8.tgz"
+  },
+  "homepage": "https://github.com/Lobos/react-ui#readme",
+  "keywords": [
+    "react ui",
+    "react-ui",
+    "react-component"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "maintainers": [
+    {
+      "name": "lobos",
+      "email": "lobos841@gmail.com"
+    }
+  ],
+  "name": "rctui",
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "publish_time": 1470916605009,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lobos/react-ui.git"
+  },
+  "scripts": {},
+  "version": "0.6.8"
+}

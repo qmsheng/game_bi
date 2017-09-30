@@ -1,0 +1,155 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "antd-init",
+        "scope": null,
+        "escapedName": "antd-init",
+        "name": "antd-init",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\Develope\\laragon\\www\\bi\\script"
+    ]
+  ],
+  "_cnpm_publish_time": 1476864011461,
+  "_from": "antd-init@latest",
+  "_id": "antd-init@2.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/antd-init",
+  "_nodeVersion": "6.7.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/antd-init-2.0.3.tgz_1476864009708_0.5400908272713423"
+  },
+  "_npmUser": {
+    "name": "afc163",
+    "email": "afc163@gmail.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {
+    "ansi-escapes": "1.4.0",
+    "buffer-shims": "1.0.0",
+    "chalk": "1.1.3",
+    "cli-cursor": "1.0.2",
+    "clone": "1.0.2",
+    "clone-stats": "0.0.1",
+    "core-util-is": "1.0.2",
+    "duplexify": "3.5.0",
+    "extend": "3.0.0",
+    "external-editor": "1.1.1",
+    "figures": "1.7.0",
+    "first-chunk-stream": "1.0.0",
+    "graceful-fs": "4.1.10",
+    "gulp-sourcemaps": "1.6.0",
+    "inflight": "1.0.6",
+    "inherits": "2.0.3",
+    "is-promise": "2.1.0",
+    "is-stream": "1.1.0",
+    "is-valid-glob": "0.3.0",
+    "json-stable-stringify": "1.0.1",
+    "lazystream": "1.0.0",
+    "lodash.isequal": "4.4.0",
+    "merge-stream": "1.0.0",
+    "micromatch": "2.3.11",
+    "minimatch": "3.0.3",
+    "mkdirp": "0.5.1",
+    "object-assign": "4.1.0",
+    "once": "1.4.0",
+    "path-dirname": "1.0.2",
+    "path-is-absolute": "1.0.1",
+    "pinkie-promise": "2.0.1",
+    "process-nextick-args": "1.0.7",
+    "replace-ext": "0.0.1",
+    "rx": "4.1.0",
+    "string-width": "1.0.2",
+    "string_decoder": "0.10.31",
+    "strip-ansi": "3.0.1",
+    "strip-bom": "2.0.0",
+    "through2": "2.0.1",
+    "through2-filter": "2.0.0",
+    "to-absolute-glob": "0.1.1",
+    "util-deprecate": "1.0.2",
+    "vali-date": "1.0.0",
+    "xtend": "4.0.1"
+  },
+  "_requested": {
+    "raw": "antd-init",
+    "scope": null,
+    "escapedName": "antd-init",
+    "name": "antd-init",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/antd-init/download/antd-init-2.0.3.tgz",
+  "_shasum": "82453805a8a52db36282c9b5d101d8fe5574489e",
+  "_shrinkwrap": null,
+  "_spec": "antd-init",
+  "_where": "D:\\Develope\\laragon\\www\\bi\\script",
+  "bin": {
+    "antd-init": "./bin/antd-init"
+  },
+  "bugs": {
+    "url": "https://github.com/ant-design/antd-init/issues"
+  },
+  "dependencies": {
+    "inquirer": "^1.0.0",
+    "through2": "2.0.x",
+    "vinyl-fs": "^2.4.3",
+    "which": "1.2.x"
+  },
+  "description": "Ant Design boilerplate generator.",
+  "devDependencies": {
+    "coffee": "^3.2.1",
+    "mocha": "2",
+    "rimraf": "^2.5.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "82453805a8a52db36282c9b5d101d8fe5574489e",
+    "size": 95252,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/antd-init/download/antd-init-2.0.3.tgz"
+  },
+  "gitHead": "fa47bec052f374e71b30a420410ccd73da680305",
+  "homepage": "https://github.com/ant-design/antd-init",
+  "license": "MIT",
+  "mail": "chencheng <sorrycc@gmail.com>",
+  "maintainers": [
+    {
+      "name": "afc163",
+      "email": "afc163@gmail.com"
+    },
+    {
+      "name": "benjycui",
+      "email": "benjytrys@gmail.com"
+    },
+    {
+      "name": "sorrycc",
+      "email": "sorrycc@gmail.com"
+    },
+    {
+      "name": "yiminghe",
+      "email": "yiminghe@gmail.com"
+    }
+  ],
+  "name": "antd-init",
+  "optionalDependencies": {},
+  "publish_time": 1476864011461,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ant-design/antd-init.git"
+  },
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "version": "2.0.3"
+}
